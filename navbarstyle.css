@@ -1,0 +1,88 @@
+.navbar {
+    
+     background-color: rgb(155, 112, 216);
+    
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand,.navbar-nav .dropdown-menu li a:hover {
+    color: #fff !important;
+    background-color: rgb(155, 112, 216) !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a,.navbar-nav .dropdown-menu li a {
+    color: rgb(155, 112, 216) !important;
+    background-color: #fff !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+/* to avoid the content being hidden by the navbar */
+body { padding-top: 60px;} 
+
+
+/************************************************************
+*************************Footer******************************
+*************************************************************/
+
+.myFooter{
+    background-color: aliceblue
+}
+
+
+
+
+
+/* @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Gudea); */
+
+
+
+#social:hover {
+    -webkit-transform:scale(1.1); 
+    -moz-transform:scale(1.1); 
+    -o-transform:scale(1.1); 
+}
+#social {
+	-webkit-transform:scale(0.8);
+    /* Browser Variations: */
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8); 
+    -webkit-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}           
+/* 
+    Only Needed in Multi-Coloured Variation 
+                                               */
+			.social-fb:hover {
+				color: #3B5998;
+			}
+			.social-tw:hover {
+				color: #4099FF;
+			}
+			.social-ig:hover {
+				color: #bd1a6b;
+			}
+			.social-em:hover {
+				color: #f39c12;
+			}
+			.nomargin { margin:0px; padding:0px;}
+
+
+
+
+
+
+
+
+/************************************************************
+*************************Footer******************************
+*************************************************************/
+
